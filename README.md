@@ -13,4 +13,24 @@ int main()
         cout << value << endl;
 }
 ```
-# 
+# Array ART
+```
+#include <iostream>
+using namespace std;
+int main()
+{
+    string art[5][5] = {
+        {"-","-","-","-","-"},
+        {"-","o","w","o","-"},
+        {"-","@","@","@","-"},
+        {"-","^","^","^","-"},
+        {"-","v","v","v","-"},
+    };
+    for (int x = 0; x < 5; x++) {
+        for (int y = 0; y < 5; y++) {
+            cout << art[x][y] << "";
+        }
+        cout << endl;
+    }
+}
+```
