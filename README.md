@@ -34,3 +34,24 @@ int main()
     }
 }
 ```
+# Bunny ARRAY
+```
+#include <iostream>
+using namespace std;
+int main()
+{
+    string art[5][5] = {
+        {"/",")","_","/",")"},
+        {"(","*","u","*",")"},
+        {"(",">"," ","<",")"},
+        {" ","U"," ","U"," "},
+        {"^","^","^","^","^"},
+    };
+    for (int x = 0; x < 5; x++) {
+        for (int y = 0; y < 5; y++) {
+            cout << art[x][y] << "";
+        }
+        cout << endl;
+    }
+}
+```
